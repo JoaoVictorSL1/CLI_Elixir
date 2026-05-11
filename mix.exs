@@ -1,0 +1,25 @@
+defmodule LivroDeRegistrosDeContatos.MixProject do
+  use Mix.Project
+
+  def project do
+    [
+      app: :livro_de_registros_de_contatos,
+      version: "0.1.0",
+      elixir: "~> 1.19",
+      start_permanent: Mix.env() == :prod,
+      deps: deps()
+    ]
+  end
+
+  def application do
+    [
+      extra_applications: [:logger]
+    ]
+  end
+
+  defp deps do
+    [
+      {:jason, "~> 1.4"}
+    ]
+  end
+end

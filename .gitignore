@@ -1,0 +1,11 @@
+/_build/
+/cover/
+/deps/
+/doc/
+/tmp/
+erl_crash.dump
+*.ez
+livro_de_registros_de_contatos-*.tar
+contacts.json
+lib/parse.json
+.elixir_ls/
